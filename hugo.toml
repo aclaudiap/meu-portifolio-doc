@@ -1,0 +1,4 @@
+baseURL = 'https://localhost/'
+languageCode = 'pt-br'
+title = 'Meu portifolio'
+theme = 'hugo-book'
