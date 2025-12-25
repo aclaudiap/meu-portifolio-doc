@@ -1,7 +1,7 @@
-baseURL = "http://localhost/"
+baseURL = "https://aclaudiap.github.io/meu-portfolio-doc/"
 languageCode = "pt-br"
-title = "Olá, seja bem-vindo!"
-theme = "FixIt"  # Mudamos o nome aqui
+title = "Portfólio | Claudia"
+theme = "FixIt"
 
 [params]
   defaultTheme = "light"
@@ -9,13 +9,13 @@ theme = "FixIt"  # Mudamos o nome aqui
   [params.home]
     [params.home.profile]
       enable = true
-      title = "Olá, eu sou [Seu Nome]"
+      title = "Olá, eu sou a Claudia"
       subtitle = "Documentação Técnica | Processos | Tecnologia"
       social = true
       
   [params.social]
-    GitHub = "seu-usuario"
-    Linkedin = "seu-perfil"
+    GitHub = "aclaudiap"
+    Linkedin = "seu-perfil-aqui"
     Email = "seu-email@exemplo.com"
 
 [menu]
@@ -23,4 +23,4 @@ theme = "FixIt"  # Mudamos o nome aqui
     identifier = "posts"
     name = "Documentação"
     url = "/posts"
-    weight = 1 
+    weight = 1
