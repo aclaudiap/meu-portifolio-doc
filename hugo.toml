@@ -1,7 +1,7 @@
-baseURL = "http://localhost/"
+baseURL = "https://aclaudiap.github.io/meu-portifolio-doc/"
 languageCode = "pt-br"
-title = "Meu Portfólio"
-theme = "FixIt"  # Mudamos o nome aqui
+title = "Portfólio | Claudia"
+theme = "FixIt"
 
 [params]
   defaultTheme = "light"
@@ -9,18 +9,27 @@ theme = "FixIt"  # Mudamos o nome aqui
   [params.home]
     [params.home.profile]
       enable = true
-      title = "Olá, eu sou [Seu Nome]"
+      title = "Olá, eu sou a Claudia"
       subtitle = "Documentação Técnica | Processos | Tecnologia"
       social = true
-      
+
+    # Esta seção abaixo garante que os posts não apareçam na tela principal
+    [params.home.posts]
+      enable = false
+
   [params.social]
-    GitHub = "seu-usuario"
-    Linkedin = "seu-perfil"
-    Email = "seu-email@exemplo.com"
+    GitHub = "aclaudiap"
+    Linkedin = "aclaudiap"
 
 [menu]
   [[menu.main]]
     identifier = "posts"
     name = "Documentação"
-    url = "/posts"
+    url = "/posts/"
     weight = 1
+
+  [[menu.main]]
+    identifier = "curriculo"
+    name = "Currículo"
+    url = "/curriculo/"
+    weight = 2
