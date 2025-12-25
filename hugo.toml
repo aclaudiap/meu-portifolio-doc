@@ -1,4 +1,26 @@
-baseURL = 'https://localhost/'
-languageCode = 'pt-br'
-title = 'Meu portifolio'
-theme = 'hugo-book'
+baseURL = "http://localhost/"
+languageCode = "pt-br"
+title = "Meu Portfólio"
+theme = "FixIt"  # Mudamos o nome aqui
+
+[params]
+  defaultTheme = "light"
+
+  [params.home]
+    [params.home.profile]
+      enable = true
+      title = "Olá, eu sou [Seu Nome]"
+      subtitle = "Documentação Técnica | Processos | Tecnologia"
+      social = true
+      
+  [params.social]
+    GitHub = "seu-usuario"
+    Linkedin = "seu-perfil"
+    Email = "seu-email@exemplo.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Documentação"
+    url = "/posts"
+    weight = 1
